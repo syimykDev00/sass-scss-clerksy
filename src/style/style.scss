@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: Noto Sans, sans-serif;
+}
+
+button {
+  cursor: pointer;
+  transition: .4s;
+  border: none;
+  outline: none;
+}
+
+@import 'header/header.scss';
+@import 'hero/hero.scss';
+@import 'human/human.scss';
+@import 'production/production.scss';
+@import 'employess/employess.scss';
+@import 'together/together.scss';
+@import 'easy/easy.scss';
+@import 'another/another.scss';
+@import 'started/started.scss';
+@import 'stay/stay.scss';
+@import 'footer/footer.scss';

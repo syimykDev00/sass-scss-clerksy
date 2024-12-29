@@ -1,0 +1,291 @@
+#started {
+  background: #163A24;
+  padding: 20px 0 0 0;
+  .startedGeneral {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+
+    }
+    .started {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      h1 {
+        font-family: Recoleta, sans-serif;
+        font-size: 48px;
+        font-weight: 600;
+        color: #FBFAF7;
+      }
+      p {
+        font-size: 18px;
+        color: #FBFAF7;
+        padding: 26px 0 20px 0;
+        font-weight: 400;
+      }
+      button {
+        font-size: 16px;
+        padding: 15px 25px;
+        font-weight: 600;
+        background: #FAB5A0;
+        border-radius: 160px;
+        border: 2px solid #FAB5A0;
+        color: #163A24;
+        &:hover {
+          background: transparent;
+          transform: scale(1.1);
+          color: #FAB5A0;
+        }
+      }
+    }
+    img {
+
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  #started {
+    .startedGeneral {
+      img {
+
+      }
+      .started {
+        padding-right: 45px;
+        h1 {
+          font-size: 47px;
+        }
+        p {
+
+        }
+        button {
+
+        }
+      }
+      img {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #started {
+    .startedGeneral {
+      img {
+
+      }
+      .started {
+        h1 {
+          font-size: 46px;
+        }
+        p {
+
+        }
+        button {
+
+        }
+      }
+      img {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #started {
+    .startedGeneral {
+      img {
+
+      }
+      .started {
+        padding-right: 40px;
+        h1 {
+          font-size: 45px;
+        }
+        p {
+
+        }
+        button {
+
+        }
+      }
+      img {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #started {
+    .startedGeneral {
+      flex-direction: column;
+      img {
+
+      }
+      .started {
+        padding: 55px 0;
+        h1 {
+          font-size: 47px;
+        }
+        p {
+
+        }
+        button {
+
+        }
+      }
+      img {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #started {
+    .startedGeneral {
+      flex-direction: column;
+      img {
+
+      }
+      .started {
+        padding: 55px 0;
+        h1 {
+          font-size: 47px;
+        }
+        p {
+
+        }
+        button {
+
+        }
+      }
+      img {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #started {
+    .startedGeneral {
+      flex-direction: column;
+      img {
+
+      }
+      .started {
+        padding: 55px 0;
+        h1 {
+          width: 90%;
+          font-size: 43px;
+        }
+        p {
+          width: 90%;
+          margin: 0 auto;
+        }
+        button {
+
+        }
+      }
+      img {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #started {
+    .startedGeneral {
+      flex-direction: column;
+      img {
+
+      }
+      .started {
+        padding: 55px 0;
+        h1 {
+          width: 90%;
+          font-size: 42px;
+        }
+        p {
+          width: 90%;
+          margin: 0 auto;
+        }
+        button {
+
+        }
+      }
+      img {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  #started {
+    .startedGeneral {
+      flex-direction: column;
+      img {
+
+      }
+      .started {
+        padding: 55px 0;
+        h1 {
+          width: 90%;
+          font-size: 42px;
+        }
+        p {
+          width: 90%;
+          margin: 0 auto;
+        }
+        button {
+
+        }
+      }
+      img {
+
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #started {
+    .startedGeneral {
+      flex-direction: column;
+      img {
+        width: 90%;
+      }
+      .started {
+        padding: 55px 0;
+        h1 {
+          width: 90%;
+          font-size: 40px;
+        }
+        p {
+          width: 90%;
+          margin: 0 auto;
+        }
+        button {
+
+        }
+      }
+      img {
+        width: 90%;
+      }
+    }
+  }
+}
